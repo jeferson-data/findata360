@@ -1,0 +1,15 @@
+{
+  "name": "findata360",
+  "version": "1.0.0",
+  "description": "Plataforma de gestão financeira para PMEs",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": ["finance", "management", "dashboard", "pme"],
+  "author": "FinData360 Team",
+  "license": "MIT"
+}
