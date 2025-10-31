@@ -9,7 +9,15 @@
     "build:frontend": "cd frontend && npm run build",
     "start:backend": "cd backend && npm start"
   },
-  "keywords": ["finance", "management", "dashboard", "pme"],
+  "keywords": [
+    "finance",
+    "management",
+    "dashboard",
+    "pme"
+  ],
   "author": "FinData360 Team",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy-middleware": "^3.0.5"
+  }
 }
